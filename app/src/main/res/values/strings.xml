@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_15_number_4</string>
+    <string name="surnameEditTextET_Hint">Фамилия</string>
+    <string name="phoneEditTextET_Hint">телефон</string>
+    <string name="saveButtonBT_Text">Сохранить</string>
+    <string name="contactsTextViewTV_Hint">Список контактов</string>
+    <string name="toolbar_title">Контакты</string>
+    <string name="toolbar_subtitle">Mod. 15 № 14</string>
+    <string name="exit">Exit</string>
+    <string name="removeBD">RemoveBD</string>
+    <string name="toast_exit">Приложение закрыто</string>
+    <string name="removeDB_Toast">Контакты очищены</string>
+</resources>
