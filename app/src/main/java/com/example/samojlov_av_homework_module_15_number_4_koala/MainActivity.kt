@@ -80,8 +80,9 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+
     @OptIn(DelicateCoroutinesApi::class)
-    private fun readDatabase(db: ContactDatabase) = GlobalScope.async {
+    private fun readDatabase(db: ContactDatabase) = GlobalScope.async  {
         contactsTextViewTV.text = ""
         val list = db.getContactDao().getAllContacts()
         list.forEach { i -> contactsTextViewTV.append(i.surname + "\n" + i.phone + "\n\n") }
